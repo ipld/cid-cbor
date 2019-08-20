@@ -6,6 +6,7 @@ This document registers a tag for serializing IPLD content identifiers (CIDs) in
     Tag: 42
     Data item: byte string
     Semantics: IPLD content identifier
+    Created: 2019-08-20
 
 
 Introduction
