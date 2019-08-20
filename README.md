@@ -1,11 +1,11 @@
-Content identifiers (CIDs) in CBOR
-==================================
+IPLD content identifiers (CIDs) in CBOR
+=======================================
 
-This document registers a tag for serializing content identifiers (CIDs) in Concise Binary Object Representation ([CBOR]).
+This document registers a tag for serializing IPLD content identifiers (CIDs) in Concise Binary Object Representation ([CBOR]).
 
     Tag: 42
     Data item: byte string
-    Semantics: Content identifier
+    Semantics: IPLD content identifier
 
 
 Introduction
@@ -17,7 +17,7 @@ Introduction
 Semantics
 ---------
 
-A content identifier in CBOR has tag 42 and is encoded as a byte string (major type 2). The CID is encoded in its binary representation (base256) and may contain the identity [Multibase] prefix (a null-byte).
+An IPLD content identifier in CBOR has tag 42 and is encoded as a byte string (major type 2). The CID is encoded in its binary representation (base256) and may contain the identity [Multibase] prefix (a null-byte).
 
 
 Example
